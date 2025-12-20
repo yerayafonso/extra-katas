@@ -12,9 +12,7 @@ describe("Rotate Matrix", () => {
       [4, 2],
     ]);
   });
-});
 
-describe("Rotate Matrix", () => {
   test("Rotate a 3x3 matrix 90 deg clockwise", () => {
     expect(
       rotateMatrix([
@@ -28,9 +26,7 @@ describe("Rotate Matrix", () => {
       [9, 6, 3],
     ]);
   });
-});
 
-describe("Rotate Matrix", () => {
   test("Rotate a 4x4 matrix 90deg clockwise", () => {
     expect(
       rotateMatrix([
@@ -46,9 +42,7 @@ describe("Rotate Matrix", () => {
       [16, 7, 10, 11],
     ]);
   });
-});
 
-describe("Rotate Matrix", () => {
   test("Rotate a 5x5 matrix 90deg clockwise", () => {
     expect(
       rotateMatrix([

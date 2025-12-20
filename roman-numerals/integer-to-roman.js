@@ -1,3 +1,5 @@
+// const { interceptors } = require("undici-types");
+
 function integerToRoman(number) {
   const values = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1];
 
@@ -26,7 +28,9 @@ function integerToRoman(number) {
   return romanStr;
 }
 
-console.log(integerToRomann(357));
-console.log(integerToRoman(29));
-console.log(integerToRoman(2025));
-console.log(integerToRoman(1920));
+// console.log(integerToRomann(357));
+// console.log(integerToRoman(29));
+// console.log(integerToRoman(2025));
+// console.log(integerToRoman(1920));
+
+module.exports = integerToRoman;
