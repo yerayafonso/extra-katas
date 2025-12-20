@@ -13,6 +13,6 @@ describe("Convert to Roman Numerals", () => {
 
   test("Convert a 4 digit integer to roman numerals", () => {
     expect(integerToRoman(2025)).toBe("MMXXV");
-    expect(integerToRoman(1895)).toBe("MDCCCXCV");
+    expect(integerToRoman(1894)).toBe("MDCCCXCIV");
   });
 });
