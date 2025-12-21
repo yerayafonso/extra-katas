@@ -13,6 +13,6 @@ function shiftArray(nums, k) {
   return newArray;
 }
 
-console.log(shiftArray([1, 2, 3, 4, 5, 6, 7], 3));
+// console.log(shiftArray([1, 2, 3, 4, 5, 6, 7], 3));
 
 module.exports = shiftArray;
