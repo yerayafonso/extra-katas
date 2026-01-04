@@ -21,11 +21,9 @@ function substringTest(str1, str2) {
   let lowerStr1 = str1.toLowerCase();
   let lowerStr2 = str2.toLowerCase();
   for (let i = 0; i < lowerStr1.length - 1; i++) {
-    for (let j = i + 2; j < lowerStr1.length; j++) {
-      let ref = lowerStr1.slice(i, j);
-      if (lowerStr2.includes(ref)) {
-        return true;
-      }
+    let ref = lowerStr1.slice(i, i + 2);
+    if (lowerStr2.includes(ref)) {
+      return true;
     }
   }
   return false;
@@ -38,4 +36,4 @@ console.log(substringTest("Something", "Fun"), "→ Expected: false");
 console.log(substringTest("Something", "Home"), "→ Expected: true");
 console.log(substringTest("HELLO", "bell"), "→ Expected: true");
 console.log(substringTest("test", "llama"), "→ Expected: false");
-console.log(substringTest("Apple", "Pepsi"), "→ Expected: true");
+console.log(substringTest("Apple", "Pepsi"), "→ Expected: false");
